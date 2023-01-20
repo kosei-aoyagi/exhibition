@@ -13,7 +13,7 @@ jobs:
       - run: |
           echo first step
   second:
-    needs: second
+    needs: first
     runs-on: ubuntu-latest
     steps:
       - run: |
