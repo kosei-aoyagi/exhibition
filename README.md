@@ -1,2 +1,2 @@
 # exhibition
-This is public sandbox.
+This is a public sandbox.
