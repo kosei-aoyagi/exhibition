@@ -1,5 +1,5 @@
 ---
-name: Deploy production
+name: Must Succeed 1st Job
 
 on:
   workflow_dispatch:
