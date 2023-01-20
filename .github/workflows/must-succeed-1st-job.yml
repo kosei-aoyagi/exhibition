@@ -1,19 +1,19 @@
 ---
-name: Must Succeed 1st Job
+name: Must Succeed first Job
 
 on:
   workflow_dispatch:
 
 jobs:
 
-  1st:
+  first:
     if: github.ref_name == 'main'
     runs-on: ubuntu-latest
     steps:
       - run: |
           echo first step
-  2nd:
-    needs: 1st
+  second:
+    needs: second
     runs-on: ubuntu-latest
     steps:
       - run: |
